@@ -1,0 +1,274 @@
+{
+  "personal": {
+    "name": "Lucas Bracq",
+    "title": "Full Stack Developer",
+    "bio": "Passionate about web development and creating exceptional user experiences.",
+    "email": "lucas.bracq.pro@gmail.com",
+    "github": "https://github.com/MagsOHD",
+    "linkedin": "https://www.linkedin.com/in/lucas-bracq/",
+    "gitlab": "https://gitlab.com/lucas.bracq"
+  },
+  "about": {
+    "bioTitle": "Who am I?",
+    "bio": "A Full Stack Developer passionate about modern web technologies, I transform ideas into high-performing applications. Currently based in Roquebrune-Cap-Martin, I juggle between PHP/Symfony, JavaScript/React, and Node.js to create solid digital experiences. My journey has taken me from Nice to Rennes, then remote in Lyon, before settling in Monaco at CruiseTech. Beyond code, I have a real talent for team management—a legacy from my years organizing international esports tournaments and coordinating gaming communities.",
+    "journeyTitle": "My journey",
+    "journey": "A determined self-taught developer with a Master's degree in ESI, I built my expertise through concrete and varied projects. From Depiltech in Nice where I discovered Symfony, to CodeRhapsodie where I contributed to open source remotely, each step has shaped me. At CruiseTech since October 2023, I work on a complex multilingual cruise booking system, managing relational databases with several dozen tables, SOAP integrations with European insurance services, and continuous performance optimization. In parallel, I managed international teams as Tournament Lead for Amazon University Esports and Secretary General of the Student Gaming Network—experiences that taught me organization, cross-cultural communication, and crisis management.",
+    "passionTitle": "My passion",
+    "passion": "Web development is my comfort zone, but above all, it's an endless learning playground. I continuously train myself on the JavaScript ecosystem and its modern frameworks, while keeping a pragmatic approach: what matters is that it works well and is maintainable. Outside of code, I'm a gamer at heart—League of Legends in premade with friends, Arc Raiders for the PvPvE challenge, Forza Horizon to unwind, and Cyberpunk 2077 in stealth/hacking mode. Gaming taught me strategy, teamwork, and above all: iterating quickly after failure. These universes—dev and gaming—aren't so far apart: in both, we solve complex problems, constantly adapt, and always seek to optimize. And then there's the mountains, snowboarding, volleyball, travel, and my cats—everything that allows me to disconnect and come back with fresh ideas.",
+    "focusTitle": "Current focus",
+    "focus": "At CruiseTech, I work daily with PHP/Symfony on a complex cruise booking system. In parallel, I continue to explore the modern JavaScript ecosystem (React, Node.js) and perfect my skills in database architecture and SQL query optimization. The goal: create robust, maintainable applications that meet real user needs.",
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Years of experience"
+      },
+      {
+        "value": "10+",
+        "label": "Projects completed"
+      },
+      {
+        "value": "100%",
+        "label": "Commitment"
+      },
+      {
+        "value": "∞",
+        "label": "Learning"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Short description of project 1",
+      "technologies": ["Vue.js", "JavaScript", "CSS"],
+      "image": "/images/project1.jpg",
+      "link": "https://github.com/yourusername/project1",
+      "demo": "https://project1.example.com"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "Short description of project 2",
+      "technologies": ["Vue.js", "Node.js", "MongoDB"],
+      "image": "/images/project2.jpg",
+      "link": "https://github.com/yourusername/project2",
+      "demo": "https://project2.example.com"
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "description": "Short description of project 3",
+      "technologies": ["Vue.js", "TypeScript", "Tailwind"],
+      "image": "/images/project3.jpg",
+      "link": "https://github.com/yourusername/project3",
+      "demo": "https://project3.example.com"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend Development",
+      "level": 85,
+      "items": [
+        {"name": "PHP/Symfony", "level": 85},
+        {"name": "Node.js/Express", "level": 80},
+        {"name": "REST/SOAP APIs", "level": 85},
+        {"name": "MVC Architecture", "level": 85}
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "level": 75,
+      "items": [
+        {"name": "JavaScript ES6+", "level": 80},
+        {"name": "React", "level": 75},
+        {"name": "Vue.js", "level": 75},
+        {"name": "HTML5/CSS3", "level": 80}
+      ]
+    },
+    {
+      "category": "Database Management",
+      "level": 80,
+      "items": [
+        {"name": "MySQL", "level": 85},
+        {"name": "PostgreSQL", "level": 80},
+        {"name": "SQL Optimization", "level": 80},
+        {"name": "Schema Design", "level": 75}
+      ]
+    },
+    {
+      "category": "Version Control & Collaboration",
+      "level": 90,
+      "items": [
+        {"name": "Git", "level": 90},
+        {"name": "GitHub/GitLab", "level": 90},
+        {"name": "Code Review", "level": 85},
+        {"name": "Documentation", "level": 85}
+      ]
+    },
+    {
+      "category": "Performance Optimization",
+      "level": 75,
+      "items": [
+        {"name": "Profiling", "level": 75},
+        {"name": "Query Optimization", "level": 80},
+        {"name": "Caching Strategies", "level": 70},
+        {"name": "Server Response Time", "level": 80}
+      ]
+    },
+    {
+      "category": "Problem Solving & Architecture",
+      "level": 85,
+      "items": [
+        {"name": "Design Patterns", "level": 85},
+        {"name": "Scalable Architecture", "level": 80},
+        {"name": "Debugging", "level": 90},
+        {"name": "Technical Documentation", "level": 85}
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024 - Present",
+      "title": "Full Stack Developer",
+      "subtitle": "CruiseTech - Internship & Projects",
+      "description": "Backoffice performance optimization (30% response time reduction: 1.3s → 0.9s). SOAP integration with European insurance services. Management of complex multilingual booking systems. MySQL/PostgreSQL database migration and optimization.",
+      "icon": "work",
+      "tags": ["PHP", "Symfony", "MySQL", "PostgreSQL", "SOAP", "Performance"]
+    },
+    {
+      "date": "2024",
+      "title": "Freelance Full Stack Developer",
+      "subtitle": "Personal Projects & Community",
+      "description": "Development of modern web applications with Vue.js, React and Node.js. Creation of Discord bots and tools for various communities. Focus on clean architecture and best practices.",
+      "icon": "project",
+      "tags": ["Vue.js", "React", "Node.js", "Discord.js", "MongoDB"]
+    },
+    {
+      "date": "2023 - 2024",
+      "title": "Intensive Web Development Training",
+      "subtitle": "Self-taught & Hands-on",
+      "description": "In-depth learning of modern web technologies: PHP/Symfony, JavaScript (React, Vue.js, Node.js), relational databases, REST/SOAP APIs, and performance optimization. Practical application through numerous concrete projects.",
+      "icon": "education",
+      "tags": ["PHP", "Symfony", "JavaScript", "React", "Vue.js", "Node.js", "SQL"]
+    },
+    {
+      "date": "2023",
+      "title": "First Large-Scale Project",
+      "subtitle": "TeloBoup Discord Bot",
+      "description": "Development of a complex Discord bot with leveling system, virtual economy, and quest management for Teloru's community. Modular and scalable architecture.",
+      "icon": "project",
+      "tags": ["JavaScript", "Discord.js", "Node.js", "Architecture"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "JavaScript Algorithms and Data Structures",
+      "issuer": "freeCodeCamp",
+      "date": "2023",
+      "type": "certification",
+      "description": "Certification covering algorithms, data structures and object-oriented programming in JavaScript.",
+      "skills": ["JavaScript", "Algorithms", "ES6"],
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Vue.js - The Complete Guide",
+      "issuer": "Udemy",
+      "date": "2023",
+      "type": "course",
+      "description": "Complete training on Vue.js 3, Vuex, Vue Router and best practices.",
+      "skills": ["Vue.js", "Vuex", "Vue Router"],
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Node.js Backend Development",
+      "issuer": "OpenClassrooms",
+      "date": "2024",
+      "type": "formation",
+      "description": "Training on backend development with Node.js, Express and MongoDB.",
+      "skills": ["Node.js", "Express", "MongoDB", "REST API"],
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "Java Programming",
+      "issuer": "Oracle",
+      "date": "2024",
+      "type": "certification",
+      "description": "Certification covering Java programming, object-oriented programming and development best practices.",
+      "skills": ["Java", "OOP", "Design Patterns"],
+      "link": "/certificates/java.pdf"
+    }
+  ],
+  "github": {
+    "username": "MagsOHD"
+  },
+  "availability": {
+    "status": "available",
+    "message": "I'm currently available for new projects. Feel free to contact me to discuss your needs.",
+    "availableDates": [
+      "2025-01-15", "2025-01-16", "2025-01-17",
+      "2025-01-20", "2025-01-21", "2025-01-22", "2025-01-23", "2025-01-24",
+      "2025-01-27", "2025-01-28", "2025-01-29", "2025-01-30", "2025-01-31",
+      "2025-02-03", "2025-02-04", "2025-02-05", "2025-02-06", "2025-02-07",
+      "2025-02-10", "2025-02-11", "2025-02-12", "2025-02-13", "2025-02-14"
+    ],
+    "busyDates": [
+      "2025-01-13", "2025-01-14",
+      "2025-01-18", "2025-01-19",
+      "2025-01-25", "2025-01-26",
+      "2025-02-01", "2025-02-02",
+      "2025-02-08", "2025-02-09"
+    ]
+  },
+  "labels": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "code": "Code",
+    "demo": "Demo",
+    "allRightsReserved": "All rights reserved",
+    "timeline": "My Journey",
+    "certifications": "Certifications & Training",
+    "viewCertificate": "View certificate",
+    "githubActivity": "GitHub Activity",
+    "repositories": "Repositories",
+    "stars": "Stars",
+    "followers": "Followers",
+    "contributions": "Contributions",
+    "viewOnGithub": "View on GitHub",
+    "topLanguages": "Top Languages",
+    "all": "All",
+    "noProjects": "No projects found for this filter",
+    "contactSubtitle": "Feel free to contact me for any question or collaboration",
+    "getInTouch": "Get in touch",
+    "contactDescription": "Have a project in mind? A question? Send me a message and I'll get back to you as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "successMessage": "Message sent successfully! I'll get back to you soon.",
+    "errorMessage": "Error sending message. Please try again.",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email",
+    "messageTooShort": "Message must be at least 10 characters",
+    "availability": "Availability",
+    "statusAvailable": "Available now",
+    "statusLimited": "Limited availability",
+    "statusBusy": "Currently busy",
+    "availableShort": "Free",
+    "busyShort": "Busy",
+    "availableDays": "Available",
+    "busyDays": "Busy",
+    "today": "Today",
+    "availabilityCta": "Have a project in mind?",
+    "contactMe": "Contact me",
+    "language": "en"
+  }
+}

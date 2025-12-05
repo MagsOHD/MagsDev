@@ -1,0 +1,273 @@
+{
+  "personal": {
+    "name": "Lucas Bracq",
+    "title": "Développeur Full Stack",
+    "bio": "Passionné par le développement web et la création d'expériences utilisateur exceptionnelles.",
+    "email": "lucas.bracq.pro@gmail.com",
+    "github": "https://github.com/MagsOHD",
+    "linkedin": "https://www.linkedin.com/in/lucas-bracq/",
+    "gitlab": "https://gitlab.com/lucas.bracq"
+  },
+  "about": {
+    "bioTitle": "Qui suis-je ?",
+    "bio": "Développeur Full Stack passionné par les technologies web modernes, je transforme des idées en applications performantes. Actuellement basé à Roquebrune-Cap-Martin, je jongle entre PHP/Symfony, JavaScript/React, et Node.js pour créer des expériences numériques solides. Mon parcours m'a mené de Nice à Rennes, puis Lyon en remote, avant de poser mes valises à Monaco chez CruiseTech. Au-delà du code, j'ai une vraie fibre pour le management d'équipes — héritage de mes années à organiser des tournois esports internationaux et à coordonner des communautés de gamers.",
+    "journeyTitle": "Mon parcours",
+    "journey": "Autodidacte déterminé avec un Master ESI en poche, j'ai construit mon expertise à travers des projets concrets et variés. De Depiltech à Nice où j'ai découvert Symfony, jusqu'à CodeRhapsodie où j'ai contribué à l'open source en remote, chaque étape m'a forgé. Chez CruiseTech depuis octobre 2023, je travaille sur un système de réservation de croisières multilingue complexe, en gérant des bases de données relationnelles avec plusieurs dizaines de tables, des intégrations SOAP avec des services d'assurance européens, et l'optimisation continue des performances. En parallèle, j'ai managé des équipes internationales en tant que Tournament Lead pour Amazon University Esports et Secrétaire Général du Student Gaming Network — des expériences qui m'ont appris l'organisation, la communication interculturelle et la gestion de crises.",
+    "passionTitle": "Ma passion",
+    "passion": "Le développement web, c'est ma zone de confort, mais c'est surtout un terrain d'apprentissage sans fin. Je me forme en continu sur l'écosystème JavaScript et ses frameworks modernes, tout en gardant une approche pragmatique : ce qui compte, c'est que ça marche bien et que ça soit maintenable. En dehors du code, je suis un gamer dans l'âme — League of Legends en premade avec les potes, Arc Raiders pour le challenge PvPvE, Forza Horizon pour décompresser, et Cyberpunk 2077 en mode stealth/hacking. Le gaming m'a appris la stratégie, le travail d'équipe, et surtout : itérer rapidement après un échec. Ces univers — dev et gaming — ne sont pas si éloignés : dans les deux, on résout des problèmes complexes, on s'adapte constamment, et on cherche toujours à optimiser. Et puis il y a la montagne, le snowboard, le volley, les voyages et mes chats — tout ce qui me permet de déconnecter et de revenir avec des idées fraîches.",
+    "focusTitle": "Focus actuel",
+    "focus": "Chez CruiseTech, je travaille quotidiennement avec PHP/Symfony sur un système de réservation de croisières complexe. En parallèle, je continue à explorer l'écosystème JavaScript moderne (React, Node.js) et à perfectionner mes compétences en architecture de bases de données et optimisation de requêtes SQL. L'objectif : créer des applications robustes, maintenables, et qui répondent aux vrais besoins des utilisateurs.",
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Ans d'expérience"
+      },
+      {
+        "value": "10+",
+        "label": "Projets réalisés"
+      },
+      {
+        "value": "100%",
+        "label": "Engagement"
+      },
+      {
+        "value": "∞",
+        "label": "Apprentissage"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "TeloBoup - Discord Bot - Fourchette Mags",
+      "description": "Un bot Discord personnel avec système de leveling et de monnaie virtuelle créé par Teloru pour sa communauté pour lequel je suis en train de développer des fonctionnalités de quêtes.",
+      "technologies": ["JavaScript", "Node.js", "Discord.js"],
+      "image": "/public/images/teloboup-discord-bot.jpg",
+      "link": "https://gitlab.com/lucas.bracq/telo-boup-discord-bot-fourchette-mags",
+      "demo": ""
+    },    
+    {
+      "id": 2,
+      "title": "Projet 2",
+      "description": "Description courte du projet 2",
+      "technologies": ["Vue.js", "Node.js", "MongoDB"],
+      "image": "/images/project2.jpg",
+      "link": "https://github.com/votreusername/projet2",
+      "demo": "https://projet2.example.com"
+    },
+    {
+      "id": 3,
+      "title": "Projet 3",
+      "description": "Description courte du projet 3",
+      "technologies": ["Vue.js", "TypeScript", "Tailwind"],
+      "image": "/images/project3.jpg",
+      "link": "https://github.com/votreusername/projet3",
+      "demo": "https://projet3.example.com"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend Development",
+      "level": 85,
+      "items": [
+        {"name": "PHP/Symfony", "level": 85},
+        {"name": "Node.js/Express", "level": 80},
+        {"name": "API REST/SOAP", "level": 85},
+        {"name": "Architecture MVC", "level": 85}
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "level": 75,
+      "items": [
+        {"name": "JavaScript ES6+", "level": 80},
+        {"name": "React", "level": 75},
+        {"name": "Vue.js", "level": 75},
+        {"name": "HTML5/CSS3", "level": 80}
+      ]
+    },
+    {
+      "category": "Database Management",
+      "level": 80,
+      "items": [
+        {"name": "MySQL", "level": 85},
+        {"name": "PostgreSQL", "level": 80},
+        {"name": "SQL Optimization", "level": 80},
+        {"name": "Schema Design", "level": 75}
+      ]
+    },
+    {
+      "category": "Version Control & Collaboration",
+      "level": 90,
+      "items": [
+        {"name": "Git", "level": 90},
+        {"name": "GitHub/GitLab", "level": 90},
+        {"name": "Code Review", "level": 85},
+        {"name": "Documentation", "level": 85}
+      ]
+    },
+    {
+      "category": "Performance Optimization",
+      "level": 75,
+      "items": [
+        {"name": "Profiling", "level": 75},
+        {"name": "Query Optimization", "level": 80},
+        {"name": "Caching Strategies", "level": 70},
+        {"name": "Server Response Time", "level": 80}
+      ]
+    },
+    {
+      "category": "Problem Solving & Architecture",
+      "level": 85,
+      "items": [
+        {"name": "Design Patterns", "level": 85},
+        {"name": "Scalable Architecture", "level": 80},
+        {"name": "Debugging", "level": 90},
+        {"name": "Technical Documentation", "level": 85}
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024 - Présent",
+      "title": "Développeur Full Stack",
+      "subtitle": "CruiseTech - Stage & Projets",
+      "description": "Optimisation des performances du backoffice pour améliorer l'expérience utilisateur. Intégration SOAP avec des services d'assurance européens. Gestion de systèmes de réservation multilingues complexes. Migration et optimisation de bases de données MySQL/PostgreSQL.",
+      "icon": "work",
+      "tags": ["PHP", "Symfony", "MySQL", "PostgreSQL", "SOAP", "Performance"]
+    },
+    {
+      "date": "2024",
+      "title": "Développeur Full Stack Freelance",
+      "subtitle": "Projets personnels & Communauté",
+      "description": "Développement d'applications web modernes avec Vue.js, React et Node.js. Création de bots Discord et d'outils pour diverses communautés. Focus sur l'architecture clean et les bonnes pratiques.",
+      "icon": "project",
+      "tags": ["Vue.js", "React", "Node.js", "Discord.js", "MongoDB"]
+    },
+    {
+      "date": "2023 - 2024",
+      "title": "Formation Intensive Développement Web",
+      "subtitle": "Autodidacte & Pratique",
+      "description": "Apprentissage approfondi des technologies web modernes : PHP/Symfony, JavaScript (React, Vue.js, Node.js), bases de données relationnelles, API REST/SOAP, et optimisation de performance. Mise en pratique à travers de nombreux projets concrets.",
+      "icon": "education",
+      "tags": ["PHP", "Symfony", "JavaScript", "React", "Vue.js", "Node.js", "SQL"]
+    },
+    {
+      "date": "2023",
+      "title": "Premier Projet d'Envergure",
+      "subtitle": "TeloBoup Discord Bot",
+      "description": "Développement d'un bot Discord complexe avec système de leveling, économie virtuelle, et gestion de quêtes pour la communauté de Teloru. Architecture modulaire et évolutive.",
+      "icon": "project",
+      "tags": ["JavaScript", "Discord.js", "Node.js", "Architecture"]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "JavaScript Algorithms and Data Structures",
+      "issuer": "freeCodeCamp",
+      "date": "2023",
+      "type": "certification",
+      "description": "Certification couvrant les algorithmes, structures de données et programmation orientée objet en JavaScript.",
+      "skills": ["JavaScript", "Algorithmes", "ES6"],
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Vue.js - The Complete Guide",
+      "issuer": "Udemy",
+      "date": "2023",
+      "type": "course",
+      "description": "Formation complète sur Vue.js 3, Vuex, Vue Router et les meilleures pratiques.",
+      "skills": ["Vue.js", "Vuex", "Vue Router"],
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Node.js Backend Development",
+      "issuer": "OpenClassrooms",
+      "date": "2024",
+      "type": "formation",
+      "description": "Formation sur le développement backend avec Node.js, Express et MongoDB.",
+      "skills": ["Node.js", "Express", "MongoDB", "API REST"],
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "Java Programming",
+      "issuer": "Oracle",
+      "date": "2024",
+      "type": "certification",
+      "description": "Certification couvrant la programmation Java, la programmation orientée objet et les bonnes pratiques de développement.",
+      "skills": ["Java", "POO", "Design Patterns"],
+      "link": "/certificates/java.pdf"
+    }
+  ],
+  "github": {
+    "username": "MagsOHD"
+  },
+  "availability": {
+    "status": "available",
+    "message": "Je suis actuellement disponible pour de nouveaux projets. N'hésitez pas à me contacter pour discuter de vos besoins.",
+    "availableDates": [
+      "2025-01-15", "2025-01-16", "2025-01-17",
+      "2025-01-20", "2025-01-21", "2025-01-22", "2025-01-23", "2025-01-24",
+      "2025-01-27", "2025-01-28", "2025-01-29", "2025-01-30", "2025-01-31",
+      "2025-02-03", "2025-02-04", "2025-02-05", "2025-02-06", "2025-02-07",
+      "2025-02-10", "2025-02-11", "2025-02-12", "2025-02-13", "2025-02-14"
+    ],
+    "busyDates": [
+      "2025-01-13", "2025-01-14",
+      "2025-01-18", "2025-01-19",
+      "2025-01-25", "2025-01-26",
+      "2025-02-01", "2025-02-02",
+      "2025-02-08", "2025-02-09"
+    ]
+  },
+  "labels": {
+    "about": "À propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact",
+    "code": "Code",
+    "demo": "Démo",
+    "allRightsReserved": "Tous droits réservés",
+    "timeline": "Mon Parcours",
+    "certifications": "Certifications & Formations",
+    "viewCertificate": "Voir la certification",
+    "githubActivity": "Activité GitHub",
+    "repositories": "Repositories",
+    "stars": "Stars",
+    "followers": "Followers",
+    "contributions": "Contributions",
+    "viewOnGithub": "Voir sur GitHub",
+    "topLanguages": "Langages les plus utilisés",
+    "all": "Tous",
+    "noProjects": "Aucun projet trouvé pour ce filtre",
+    "contactSubtitle": "N'hésitez pas à me contacter pour toute question ou collaboration",
+    "getInTouch": "Restons en contact",
+    "contactDescription": "Vous avez un projet en tête ? Une question ? Envoyez-moi un message et je vous répondrai dans les plus brefs délais.",
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer",
+    "sending": "Envoi en cours...",
+    "successMessage": "Message envoyé avec succès ! Je vous répondrai bientôt.",
+    "errorMessage": "Erreur lors de l'envoi. Veuillez réessayer.",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Email invalide",
+    "messageTooShort": "Le message doit contenir au moins 10 caractères",
+    "availability": "Disponibilité",
+    "statusAvailable": "Disponible maintenant",
+    "statusLimited": "Disponibilité limitée",
+    "statusBusy": "Occupé actuellement",
+    "availableShort": "Libre",
+    "busyShort": "Occupé",
+    "availableDays": "Disponible",
+    "busyDays": "Occupé",
+    "today": "Aujourd'hui",
+    "availabilityCta": "Vous avez un projet en tête ?",
+    "contactMe": "Me contacter"
+  }
+}
