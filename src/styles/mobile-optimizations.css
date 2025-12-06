@@ -1,0 +1,459 @@
+/*
+ * Optimisations Mobile pour Portfolio
+ * Améliore l'expérience utilisateur sur smartphones et tablettes
+ */
+
+/* ==========================
+   TYPOGRAPHIE MOBILE
+   ========================== */
+@media (max-width: 768px) {
+  /* Titres principaux */
+  h1 {
+    font-size: clamp(2rem, 8vw, 3rem) !important;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: clamp(1.75rem, 6vw, 2.5rem) !important;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 5vw, 1.75rem) !important;
+    line-height: 1.4;
+  }
+
+  h4 {
+    font-size: clamp(1.1rem, 4vw, 1.5rem) !important;
+  }
+
+  /* Corps de texte */
+  p, li, span {
+    font-size: clamp(0.9rem, 3.5vw, 1rem) !important;
+    line-height: 1.6;
+  }
+
+  /* Améliorer la lisibilité */
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+/* Très petits écrans */
+@media (max-width: 480px) {
+  h1 {
+    font-size: clamp(1.75rem, 7vw, 2.5rem) !important;
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 5.5vw, 2rem) !important;
+  }
+}
+
+/* ==========================
+   CONTAINERS ET ESPACEMENTS
+   ========================== */
+@media (max-width: 768px) {
+  /* Container principal */
+  .container,
+  [class*="container"] {
+    max-width: 100% !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* Sections */
+  section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Cartes et grilles */
+  .card,
+  .grid-item,
+  [class*="card"],
+  [class*="item"] {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .container,
+  [class*="container"] {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  section {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+}
+
+/* ==========================
+   GRILLES RESPONSIVE
+   ========================== */
+@media (max-width: 768px) {
+  /* Grilles à 2 colonnes sur tablette */
+  .grid,
+  [class*="grid"] {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    gap: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Une seule colonne sur mobile */
+  .grid,
+  [class*="grid"],
+  .skills-grid,
+  .projects-grid,
+  .certifications-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.75rem !important;
+  }
+}
+
+/* ==========================
+   BOUTONS ET ZONES TACTILES
+   ========================== */
+@media (max-width: 768px) {
+  /* Taille minimale des boutons (44px recommandé par Apple) */
+  button,
+  .btn,
+  [class*="button"],
+  a[class*="btn"] {
+    min-height: 44px !important;
+    min-width: 44px !important;
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+  }
+
+  /* Espacer les boutons */
+  button + button,
+  .btn + .btn {
+    margin-left: 0.5rem !important;
+  }
+
+  /* Boutons pleine largeur sur mobile */
+  .btn-block,
+  [class*="full-width"] {
+    width: 100% !important;
+    display: block !important;
+  }
+}
+
+/* ==========================
+   FORMULAIRES
+   ========================== */
+@media (max-width: 768px) {
+  input,
+  textarea,
+  select {
+    font-size: 16px !important; /* Empêche le zoom sur iOS */
+    min-height: 44px !important;
+    padding: 0.75rem !important;
+  }
+
+  label {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.5rem !important;
+    display: block !important;
+  }
+
+  /* Espacement entre les champs */
+  .form-group,
+  [class*="form"] > * {
+    margin-bottom: 1rem !important;
+  }
+}
+
+/* ==========================
+   NAVIGATION ET HEADER
+   ========================== */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    padding: 1rem !important;
+  }
+
+  /* Logo */
+  .logo,
+  [class*="logo"] {
+    font-size: 1.25rem !important;
+  }
+
+  /* Menu mobile */
+  nav a,
+  .nav-link {
+    padding: 0.75rem 1rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* ==========================
+   IMAGES ET MÉDIAS
+   ========================== */
+@media (max-width: 768px) {
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Images de projets */
+  .project-image,
+  [class*="project"] img {
+    border-radius: 8px !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Avatar */
+  .avatar,
+  [class*="avatar"] {
+    width: clamp(80px, 20vw, 120px) !important;
+    height: clamp(80px, 20vw, 120px) !important;
+  }
+}
+
+/* ==========================
+   ANIMATIONS OPTIMISÉES
+   ========================== */
+@media (max-width: 768px) {
+  /* Réduire les animations pour économiser la batterie */
+  * {
+    animation-duration: 0.3s !important;
+    transition-duration: 0.3s !important;
+  }
+
+  /* Supprimer les animations complexes */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ==========================
+   PERFORMANCES MOBILES
+   ========================== */
+@media (max-width: 768px) {
+  /* Optimiser le scroll */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Empêcher le tap highlight sur iOS */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Améliorer le rendu des polices */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* ==========================
+   TABLEAUX RESPONSIVE
+   ========================== */
+@media (max-width: 768px) {
+  table {
+    display: block !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+  }
+
+  /* Alternative : empiler les cellules */
+  .table-responsive {
+    display: block !important;
+  }
+
+  .table-responsive thead {
+    display: none !important;
+  }
+
+  .table-responsive tr {
+    display: block !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .table-responsive td {
+    display: block !important;
+    text-align: right !important;
+    padding: 0.5rem !important;
+  }
+
+  .table-responsive td::before {
+    content: attr(data-label);
+    float: left !important;
+    font-weight: bold !important;
+  }
+}
+
+/* ==========================
+   MODALES ET OVERLAYS
+   ========================== */
+@media (max-width: 768px) {
+  .modal,
+  [class*="modal"] {
+    width: 95% !important;
+    max-width: 95% !important;
+    margin: 1rem !important;
+    padding: 1rem !important;
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    padding: 1rem !important;
+  }
+}
+
+/* ==========================
+   CARTES ET COMPOSANTS
+   ========================== */
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .card-title {
+    font-size: 1.25rem !important;
+  }
+
+  .card-body {
+    padding: 1rem !important;
+  }
+}
+
+/* ==========================
+   TIMELINE MOBILE
+   ========================== */
+@media (max-width: 768px) {
+  .timeline,
+  [class*="timeline"] {
+    padding-left: 0 !important;
+  }
+
+  .timeline-item {
+    padding-left: 2rem !important;
+  }
+
+  .timeline::before {
+    left: 0.5rem !important;
+  }
+}
+
+/* ==========================
+   TAGS ET BADGES
+   ========================== */
+@media (max-width: 768px) {
+  .tag,
+  .badge,
+  [class*="tag"],
+  [class*="badge"] {
+    font-size: 0.85rem !important;
+    padding: 0.4rem 0.8rem !important;
+    margin: 0.25rem !important;
+  }
+}
+
+/* ==========================
+   ICÔNES ET SYMBOLES
+   ========================== */
+@media (max-width: 768px) {
+  .icon,
+  [class*="icon"] {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+
+  .icon-large {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+}
+
+/* ==========================
+   PIED DE PAGE
+   ========================== */
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem !important;
+    text-align: center !important;
+  }
+
+  footer .social-links {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+}
+
+/* ==========================
+   ACCESSIBILITÉ MOBILE
+   ========================== */
+@media (max-width: 768px) {
+  /* Focus visible pour la navigation au clavier/touch */
+  *:focus-visible {
+    outline: 3px solid var(--accent-color, #3b82f6) !important;
+    outline-offset: 2px !important;
+  }
+
+  /* Améliorer le contraste */
+  .text-secondary {
+    color: var(--text-secondary) !important;
+    opacity: 1 !important;
+  }
+}
+
+/* ==========================
+   ORIENTATION PAYSAGE
+   ========================== */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Réduire encore les paddings en mode paysage */
+  section:not(.hero) {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Header fixe plus petit */
+  header {
+    padding: 0.5rem 1rem !important;
+  }
+}
+
+/* ==========================
+   SUPPORT DES NOTCHES (iPhone X+)
+   ========================== */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+
+  header {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+
+  footer {
+    padding-bottom: max(2rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* ==========================
+   DARK MODE MOBILE
+   ========================== */
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  /* Réduire la luminosité pour économiser la batterie OLED */
+  :root {
+    --bg-primary: #000000;
+    --bg-secondary: #0a0a0a;
+  }
+}

@@ -52,16 +52,18 @@ export default {
     initScrollAnimations() {
       const observerOptions = {
         root: null,
-        rootMargin: '0px 0px -100px 0px',
-        threshold: 0.15
+        // Marge plus généreuse pour déclencher l'animation avant que la section soit visible
+        rootMargin: '50px 0px -50px 0px',
+        // Threshold réduit pour déclencher plus facilement
+        threshold: 0.1
       }
 
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('visible')
-            // Optionnel : observer une seule fois
-            // observer.unobserve(entry.target)
+            // Déconnecter l'observer après l'animation pour optimiser les performances
+            observer.unobserve(entry.target)
           }
         })
       }, observerOptions)
@@ -70,7 +72,17 @@ export default {
       this.$nextTick(() => {
         const sections = document.querySelectorAll('section:not(.hero)')
         sections.forEach(section => {
-          observer.observe(section)
+          // Vérifier si la section est déjà dans le viewport au chargement
+          const rect = section.getBoundingClientRect()
+          const isVisible = rect.top < window.innerHeight && rect.bottom > 0
+
+          if (isVisible) {
+            // Si la section est déjà visible, l'animer immédiatement
+            section.classList.add('visible')
+          } else {
+            // Sinon, l'observer pour l'animation au scroll
+            observer.observe(section)
+          }
         })
       })
     }
@@ -237,6 +249,19 @@ section:not(.hero) {
   transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Optimisations mobile pour sections */
+@media (max-width: 768px) {
+  section:not(.hero) {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    transform: translateY(20px);
+  }
+
+  section:not(.hero) .section-title {
+    transform: translateY(15px);
+  }
+}
+
 section:not(.hero).visible {
   opacity: 1;
   transform: translateY(0);
@@ -297,6 +322,71 @@ section:not(.hero).visible > *:nth-child(4) {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Améliorations globales mobile */
+@media (max-width: 768px) {
+  /* Réduire les animations pour mobile */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Optimiser les marges et paddings globaux */
+  body {
+    font-size: 16px; /* Empêcher le zoom automatique sur iOS */
+  }
+
+  /* Améliorer le scroll sur mobile */
+  html {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Réduire les délais d'animation */
+  section:not(.hero),
+  section:not(.hero) .section-title,
+  section:not(.hero).visible > * {
+    transition-duration: 0.5s !important;
+    animation-duration: 0.5s !important;
+  }
+}
+
+/* Améliorations pour très petits écrans */
+@media (max-width: 480px) {
+  section:not(.hero) {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Espacements réduits */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Optimisations tactiles */
+@media (hover: none) and (pointer: coarse) {
+  /* Augmenter les zones tactiles */
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Désactiver les effets hover sur mobile */
+  *:hover {
+    transition: none;
   }
 }
 </style>

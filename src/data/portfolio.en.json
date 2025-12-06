@@ -1,19 +1,19 @@
 {
   "personal": {
     "name": "Lucas Bracq",
-    "title": "Fullstack Web Developer • 5+ years experience • Expert React/PHP/Node.js",
-    "bio": "Passionate Fullstack Web Developer with 5+ years of experience creating modern, high-performance web applications. Expert in React, PHP, Node.js and front/back-end technologies. Currently working at CruiseTech (Monaco) on solutions for the maritime industry. Available in 3 months (notice period). Actively seeking new technical challenges in a dynamic team in France, Europe, or remote.",
+    "title": "Fullstack Web Developer • 4+ years experience • React/PHP/Node.js",
+    "bio": "Passionate Fullstack Web Developer with 4+ years of experience creating modern, high-performance web applications. Specialized in React, PHP, Node.js and front/back-end technologies. Currently working at CruiseTech (Monaco) on solutions for the maritime industry. Available in 3 months (notice period). Actively seeking new technical challenges in a dynamic team in France, Europe, or remote.",
     "location": "06190 Roquebrune Cap-Martin, France",
     "phone": "+33 7 83 31 30 81",
     "email": "lucas.bracq.pro@gmail.com",
     "github": "https://github.com/MagsOHD",
-    "linkedin": "https://www.linkedin.com/in/lucas-bracq-250a72190",
+    "linkedin": "https://www.linkedin.com/in/lucas-bracq",
     "gitlab": "https://gitlab.com/lucas.bracq",
     "portfolio": "Cyberpunk Portfolio"
   },
   "about": {
     "bioTitle": "Who am I?",
-    "bio": "Passionate Fullstack Web Developer with 5+ years of experience creating modern, high-performance web applications. Expert in React, PHP, Node.js and front/back-end technologies. Currently working at CruiseTech (Monaco) on solutions for the maritime industry. Available in 3 months (notice period). Actively seeking new technical challenges in a dynamic team in France, Europe, or remote.",
+    "bio": "Passionate Fullstack Web Developer with 4+ years of experience creating modern, high-performance web applications. Specialized in React, PHP, Node.js and front/back-end technologies. Currently working at CruiseTech (Monaco) on solutions for the maritime industry. Available in 3 months (notice period). Actively seeking new technical challenges in a dynamic team in France, Europe, or remote.",
     "journeyTitle": "My journey",
     "journey": "From Depiltech in Nice where I discovered Symfony, through Silamir in Rennes with Bitrix migration (+10% performance), then CodeRhapsodie remotely in Lyon where I worked on enterprise client projects. Since October 2023, I'm at CruiseTech in Monaco developing web applications for the maritime industry with PHP/React/MySQL, managing multilingual booking systems and SOAP integrations with European insurance services.",
     "passionTitle": "My passion",
@@ -22,7 +22,7 @@
     "focus": "Developing web applications for the maritime industry at CruiseTech. Performance optimization and data security maintenance. Collaboration with international team on critical projects. Expertise in PHP/Symfony, React, MySQL and SOAP integrations.",
     "stats": [
       {
-        "value": "5+",
+        "value": "4+",
         "label": "Years experience"
       },
       {
@@ -53,7 +53,7 @@
       },
       {
         "name": "Portuguese",
-        "level": "Intermediate (B2I)"
+        "level": "Intermediate (B2)"
       }
     ],
     "interests": [
@@ -79,9 +79,9 @@
     },
     {
       "id": 2,
-      "title": "Discord Gaming Bot",
-      "description": "Discord bot developed in Node.js with moderation features, game statistics, and various API integrations. Hosted on VPS with MySQL database.",
-      "technologies": ["Node.js", "Discord.js", "MySQL", "API"],
+      "title": "TeloBoup - Questing System",
+      "description": "Contribution to TeloBoup Discord bot (developed by Teloru): design and implementation of the questing system in Node.js with Discord.js. Management of missions, rewards and user progression with MySQL database.",
+      "technologies": ["Node.js", "Discord.js", "MySQL", "Questing System"],
       "image": "/images/discord-bot.jpg",
       "link": "https://gitlab.com/lucas.bracq/telo-boup-discord-bot-fourchette-mags",
       "demo": ""

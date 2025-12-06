@@ -1,8 +1,8 @@
 {
   "personal": {
     "name": "Lucas Bracq",
-    "title": "Développeur Web Fullstack • 5+ ans d'expérience • Expert React/PHP/Node.js",
-    "bio": "Développeur Web Fullstack passionné avec 5+ années d'expérience dans la création d'applications web modernes et performantes. Expert en React, PHP, Node.js et technologies front/back-end. Actuellement en poste chez CruiseTech (Monaco) sur des solutions pour l'industrie maritime. Disponible sous 3 mois (préavis). Recherche activement de nouveaux défis techniques dans une équipe dynamique en France, Europe, ou à distance.",
+    "title": "Développeur Web Fullstack • 4+ ans d'expérience • React/PHP/Node.js",
+    "bio": "Développeur Web Fullstack passionné avec 4+ années d'expérience dans la création d'applications web modernes et performantes. Spécialisé en React, PHP, Node.js et technologies front/back-end. Actuellement en poste chez CruiseTech (Monaco) sur des solutions pour l'industrie maritime. Disponible sous 3 mois (préavis). Recherche activement de nouveaux défis techniques dans une équipe dynamique en France, Europe, ou à distance.",
     "location": "06190 Roquebrune Cap-Martin, France",
     "phone": "+33 7 83 31 30 81",
     "email": "lucas.bracq.pro@gmail.com",
@@ -13,7 +13,7 @@
   },
   "about": {
     "bioTitle": "Qui suis-je ?",
-    "bio": "Développeur Web Fullstack passionné avec 5+ années d'expérience dans la création d'applications web modernes et performantes. Expert en React, PHP, Node.js et technologies front/back-end. Actuellement en poste chez CruiseTech (Monaco) sur des solutions pour l'industrie maritime. Disponible sous 3 mois (préavis). Recherche activement de nouveaux défis techniques dans une équipe dynamique en France, Europe, ou à distance.",
+    "bio": "Développeur Web Fullstack passionné avec 4+ années d'expérience dans la création d'applications web modernes et performantes. Spécialisé en React, PHP, Node.js et technologies front/back-end. Actuellement en poste chez CruiseTech (Monaco) sur des solutions pour l'industrie maritime. Disponible sous 3 mois (préavis). Recherche activement de nouveaux défis techniques dans une équipe dynamique en France, Europe, ou à distance.",
     "journeyTitle": "Mon parcours",
     "journey": "De Depiltech à Nice où j'ai découvert Symfony, en passant par Silamir à Rennes avec la migration Bitrix (+10% de performance), puis CodeRhapsodie en remote à Lyon où j'ai travaillé sur des projets pour grands comptes. Depuis octobre 2023, je suis chez CruiseTech à Monaco où je développe des applications web pour l'industrie maritime avec PHP/React/MySQL, en gérant des systèmes de réservation multilingues et des intégrations SOAP avec des services d'assurance européens.",
     "passionTitle": "Ma passion",
@@ -22,7 +22,7 @@
     "focus": "Développement d'applications web pour l'industrie maritime chez CruiseTech. Optimisation des performances et maintien de la sécurité des données. Collaboration avec équipe internationale sur des projets critiques. Expertise en PHP/Symfony, React, MySQL et intégrations SOAP.",
     "stats": [
       {
-        "value": "5+",
+        "value": "4+",
         "label": "Ans d'expérience"
       },
       {
@@ -79,9 +79,9 @@
     },
     {
       "id": 2,
-      "title": "Bot Discord Gaming",
-      "description": "Bot Discord développé en Node.js avec fonctionnalités de modération, statistiques de jeu, et intégrations API diverses. Hébergé sur VPS avec base de données MySQL.",
-      "technologies": ["Node.js", "Discord.js", "MySQL", "API"],
+      "title": "TeloBoup - Système de Questing",
+      "description": "Contribution au bot Discord TeloBoup (développé par Teloru) : conception et implémentation du système de quêtes en Node.js avec Discord.js. Gestion des missions, récompenses et progression des utilisateurs avec base MySQL.",
+      "technologies": ["Node.js", "Discord.js", "MySQL", "Questing System"],
       "image": "/images/discord-bot.jpg",
       "link": "https://gitlab.com/lucas.bracq/telo-boup-discord-bot-fourchette-mags",
       "demo": ""
