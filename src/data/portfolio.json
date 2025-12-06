@@ -1,164 +1,230 @@
 {
   "personal": {
     "name": "Lucas Bracq",
-    "title": "Développeur Full Stack",
-    "bio": "Passionné par le développement web et la création d'expériences utilisateur exceptionnelles.",
+    "title": "Développeur Web Fullstack • 5+ ans d'expérience • Expert React/PHP/Node.js",
+    "bio": "Développeur Web Fullstack passionné avec 5+ années d'expérience dans la création d'applications web modernes et performantes. Expert en React, PHP, Node.js et technologies front/back-end. Actuellement en poste chez CruiseTech (Monaco) sur des solutions pour l'industrie maritime. Disponible sous 3 mois (préavis). Recherche activement de nouveaux défis techniques dans une équipe dynamique en France, Europe, ou à distance.",
+    "location": "06190 Roquebrune Cap-Martin, France",
+    "phone": "+33 7 83 31 30 81",
     "email": "lucas.bracq.pro@gmail.com",
     "github": "https://github.com/MagsOHD",
-    "linkedin": "https://www.linkedin.com/in/lucas-bracq/",
-    "gitlab": "https://gitlab.com/lucas.bracq"
+    "linkedin": "https://www.linkedin.com/in/lucas-bracq",
+    "gitlab": "https://gitlab.com/lucas.bracq",
+    "portfolio": "Portfolio Cyberpunk"
   },
   "about": {
     "bioTitle": "Qui suis-je ?",
-    "bio": "Développeur Full Stack passionné par les technologies web modernes, je transforme des idées en applications performantes. Actuellement basé à Roquebrune-Cap-Martin, je jongle entre PHP/Symfony, JavaScript/React, et Node.js pour créer des expériences numériques solides. Mon parcours m'a mené de Nice à Rennes, puis Lyon en remote, avant de poser mes valises à Monaco chez CruiseTech. Au-delà du code, j'ai une vraie fibre pour le management d'équipes — héritage de mes années à organiser des tournois esports internationaux et à coordonner des communautés de gamers.",
+    "bio": "Développeur Web Fullstack passionné avec 5+ années d'expérience dans la création d'applications web modernes et performantes. Expert en React, PHP, Node.js et technologies front/back-end. Actuellement en poste chez CruiseTech (Monaco) sur des solutions pour l'industrie maritime. Disponible sous 3 mois (préavis). Recherche activement de nouveaux défis techniques dans une équipe dynamique en France, Europe, ou à distance.",
     "journeyTitle": "Mon parcours",
-    "journey": "Autodidacte déterminé avec un Master ESI en poche, j'ai construit mon expertise à travers des projets concrets et variés. De Depiltech à Nice où j'ai découvert Symfony, jusqu'à CodeRhapsodie où j'ai contribué à l'open source en remote, chaque étape m'a forgé. Chez CruiseTech depuis octobre 2023, je travaille sur un système de réservation de croisières multilingue complexe, en gérant des bases de données relationnelles avec plusieurs dizaines de tables, des intégrations SOAP avec des services d'assurance européens, et l'optimisation continue des performances. En parallèle, j'ai managé des équipes internationales en tant que Tournament Lead pour Amazon University Esports et Secrétaire Général du Student Gaming Network — des expériences qui m'ont appris l'organisation, la communication interculturelle et la gestion de crises.",
+    "journey": "De Depiltech à Nice où j'ai découvert Symfony, en passant par Silamir à Rennes avec la migration Bitrix (+10% de performance), puis CodeRhapsodie en remote à Lyon où j'ai travaillé sur des projets pour grands comptes. Depuis octobre 2023, je suis chez CruiseTech à Monaco où je développe des applications web pour l'industrie maritime avec PHP/React/MySQL, en gérant des systèmes de réservation multilingues et des intégrations SOAP avec des services d'assurance européens.",
     "passionTitle": "Ma passion",
-    "passion": "Le développement web, c'est ma zone de confort, mais c'est surtout un terrain d'apprentissage sans fin. Je me forme en continu sur l'écosystème JavaScript et ses frameworks modernes, tout en gardant une approche pragmatique : ce qui compte, c'est que ça marche bien et que ça soit maintenable. En dehors du code, je suis un gamer dans l'âme — League of Legends en premade avec les potes, Arc Raiders pour le challenge PvPvE, Forza Horizon pour décompresser, et Cyberpunk 2077 en mode stealth/hacking. Le gaming m'a appris la stratégie, le travail d'équipe, et surtout : itérer rapidement après un échec. Ces univers — dev et gaming — ne sont pas si éloignés : dans les deux, on résout des problèmes complexes, on s'adapte constamment, et on cherche toujours à optimiser. Et puis il y a la montagne, le snowboard, le volley, les voyages et mes chats — tout ce qui me permet de déconnecter et de revenir avec des idées fraîches.",
+    "passion": "Le développement web et les technologies modernes. Veille technologique constante, projets personnels, contribution open source. Passionné par le gaming (League of Legends, Arc Raiders, Forza Horizon, Cyberpunk 2077), le design UI/UX, la photographie, la musique électronique et les voyages.",
     "focusTitle": "Focus actuel",
-    "focus": "Chez CruiseTech, je travaille quotidiennement avec PHP/Symfony sur un système de réservation de croisières complexe. En parallèle, je continue à explorer l'écosystème JavaScript moderne (React, Node.js) et à perfectionner mes compétences en architecture de bases de données et optimisation de requêtes SQL. L'objectif : créer des applications robustes, maintenables, et qui répondent aux vrais besoins des utilisateurs.",
+    "focus": "Développement d'applications web pour l'industrie maritime chez CruiseTech. Optimisation des performances et maintien de la sécurité des données. Collaboration avec équipe internationale sur des projets critiques. Expertise en PHP/Symfony, React, MySQL et intégrations SOAP.",
     "stats": [
       {
-        "value": "4+",
+        "value": "5+",
         "label": "Ans d'expérience"
       },
       {
-        "value": "10+",
-        "label": "Projets réalisés"
+        "value": "4",
+        "label": "Langues parlées"
       },
       {
-        "value": "100%",
-        "label": "Engagement"
+        "value": "47",
+        "label": "Technologies"
       },
       {
-        "value": "∞",
-        "label": "Apprentissage"
+        "value": "7",
+        "label": "Diplômes & Certifs"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Français",
+        "level": "Langue maternelle"
+      },
+      {
+        "name": "Anglais",
+        "level": "Courant"
+      },
+      {
+        "name": "Espagnol",
+        "level": "Intermédiaire (B2)"
+      },
+      {
+        "name": "Portugais",
+        "level": "Intermédiaire (B2)"
+      }
+    ],
+    "interests": [
+      {
+        "category": "Développement & Technologies",
+        "items": ["Veille technologique", "Projets personnels", "Open Source", "Gaming", "Innovation Web"]
+      },
+      {
+        "category": "Loisirs créatifs",
+        "items": ["Design UI/UX", "Photographie", "Musique électronique", "Voyages"]
       }
     ]
   },
   "projects": [
     {
       "id": 1,
-      "title": "TeloBoup - Discord Bot - Fourchette Mags",
-      "description": "Un bot Discord personnel avec système de leveling et de monnaie virtuelle créé par Teloru pour sa communauté pour lequel je suis en train de développer des fonctionnalités de quêtes.",
-      "technologies": ["JavaScript", "Node.js", "Discord.js"],
-      "image": "/public/images/teloboup-discord-bot.jpg",
-      "link": "https://gitlab.com/lucas.bracq/telo-boup-discord-bot-fourchette-mags",
-      "demo": ""
-    },    
+      "title": "Portfolio Cyberpunk 2084",
+      "description": "Portfolio innovant avec système de thèmes dynamiques (Cyberpunk/Professionnel), notifications email automatiques via NTFY, et easter eggs interactifs. Développé en HTML/CSS/JavaScript vanilla.",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "NTFY", "Design"],
+      "image": "/images/portfolio-cyberpunk.jpg",
+      "link": "#",
+      "demo": "#"
+    },
     {
       "id": 2,
-      "title": "Projet 2",
-      "description": "Description courte du projet 2",
-      "technologies": ["Vue.js", "Node.js", "MongoDB"],
-      "image": "/images/project2.jpg",
-      "link": "https://github.com/votreusername/projet2",
-      "demo": "https://projet2.example.com"
+      "title": "Bot Discord Gaming",
+      "description": "Bot Discord développé en Node.js avec fonctionnalités de modération, statistiques de jeu, et intégrations API diverses. Hébergé sur VPS avec base de données MySQL.",
+      "technologies": ["Node.js", "Discord.js", "MySQL", "API"],
+      "image": "/images/discord-bot.jpg",
+      "link": "https://gitlab.com/lucas.bracq/telo-boup-discord-bot-fourchette-mags",
+      "demo": ""
     },
     {
       "id": 3,
-      "title": "Projet 3",
-      "description": "Description courte du projet 3",
-      "technologies": ["Vue.js", "TypeScript", "Tailwind"],
-      "image": "/images/project3.jpg",
-      "link": "https://github.com/votreusername/projet3",
-      "demo": "https://projet3.example.com"
+      "title": "Optimisation Performance CruiseTech",
+      "description": "Refactoring complet de l'architecture pour système de gestion de croisières supportant 10k+ utilisateurs quotidiens. Réduction de -2,3s du temps de chargement et -40% des coûts serveur grâce à l'optimisation SQL/Redis.",
+      "technologies": ["PHP", "Symfony", "MySQL", "Redis", "Performance"],
+      "image": "/images/cruisetech-perf.jpg",
+      "link": "#",
+      "demo": "#"
     }
   ],
   "skills": [
     {
-      "category": "Backend Development",
-      "level": 85,
-      "items": [
-        {"name": "PHP/Symfony", "level": 85},
-        {"name": "Node.js/Express", "level": 80},
-        {"name": "API REST/SOAP", "level": 85},
-        {"name": "Architecture MVC", "level": 85}
-      ]
-    },
-    {
-      "category": "Frontend Development",
-      "level": 75,
-      "items": [
-        {"name": "JavaScript ES6+", "level": 80},
-        {"name": "React", "level": 75},
-        {"name": "Vue.js", "level": 75},
-        {"name": "HTML5/CSS3", "level": 80}
-      ]
-    },
-    {
-      "category": "Database Management",
-      "level": 80,
-      "items": [
-        {"name": "MySQL", "level": 85},
-        {"name": "PostgreSQL", "level": 80},
-        {"name": "SQL Optimization", "level": 80},
-        {"name": "Schema Design", "level": 75}
-      ]
-    },
-    {
-      "category": "Version Control & Collaboration",
+      "category": "Langages de Programmation",
       "level": 90,
       "items": [
-        {"name": "Git", "level": 90},
-        {"name": "GitHub/GitLab", "level": 90},
-        {"name": "Code Review", "level": 85},
-        {"name": "Documentation", "level": 85}
+        {"name": "PHP", "level": 95},
+        {"name": "JavaScript", "level": 90},
+        {"name": "TypeScript", "level": 85},
+        {"name": "Python", "level": 70},
+        {"name": "HTML5", "level": 95},
+        {"name": "CSS3", "level": 90},
+        {"name": "SQL", "level": 90},
+        {"name": "Bash", "level": 75}
       ]
     },
     {
-      "category": "Performance Optimization",
-      "level": 75,
-      "items": [
-        {"name": "Profiling", "level": 75},
-        {"name": "Query Optimization", "level": 80},
-        {"name": "Caching Strategies", "level": 70},
-        {"name": "Server Response Time", "level": 80}
-      ]
-    },
-    {
-      "category": "Problem Solving & Architecture",
+      "category": "Développement Frontend",
       "level": 85,
       "items": [
-        {"name": "Design Patterns", "level": 85},
-        {"name": "Scalable Architecture", "level": 80},
-        {"name": "Debugging", "level": 90},
-        {"name": "Technical Documentation", "level": 85}
+        {"name": "React", "level": 85},
+        {"name": "Vue.js", "level": 85},
+        {"name": "Angular", "level": 70},
+        {"name": "Redux", "level": 80},
+        {"name": "Sass/SCSS", "level": 90},
+        {"name": "Bootstrap", "level": 85},
+        {"name": "Tailwind CSS", "level": 85},
+        {"name": "Webpack", "level": 75},
+        {"name": "Next.js", "level": 80},
+        {"name": "Vite", "level": 85}
+      ]
+    },
+    {
+      "category": "Développement Backend",
+      "level": 95,
+      "items": [
+        {"name": "Node.js", "level": 85},
+        {"name": "Express.js", "level": 85},
+        {"name": "Symfony", "level": 95},
+        {"name": "Laravel", "level": 80},
+        {"name": "REST API", "level": 95},
+        {"name": "GraphQL", "level": 75},
+        {"name": "JWT", "level": 85},
+        {"name": "OAuth", "level": 80}
+      ]
+    },
+    {
+      "category": "Bases de Données",
+      "level": 90,
+      "items": [
+        {"name": "MySQL", "level": 95},
+        {"name": "PostgreSQL", "level": 85},
+        {"name": "MongoDB", "level": 80},
+        {"name": "Redis", "level": 85},
+        {"name": "Elasticsearch", "level": 75}
+      ]
+    },
+    {
+      "category": "DevOps & Outils",
+      "level": 85,
+      "items": [
+        {"name": "Git", "level": 95},
+        {"name": "Docker", "level": 80},
+        {"name": "AWS", "level": 70},
+        {"name": "Linux", "level": 85},
+        {"name": "GitHub Actions", "level": 80},
+        {"name": "GitLab CI", "level": 80},
+        {"name": "Nginx", "level": 75},
+        {"name": "Apache", "level": 75},
+        {"name": "VPS", "level": 85},
+        {"name": "Heroku", "level": 75}
       ]
     }
   ],
   "timeline": [
     {
-      "date": "2024 - Présent",
-      "title": "Développeur Full Stack",
-      "subtitle": "CruiseTech - Stage & Projets",
-      "description": "Optimisation des performances du backoffice pour améliorer l'expérience utilisateur. Intégration SOAP avec des services d'assurance européens. Gestion de systèmes de réservation multilingues complexes. Migration et optimisation de bases de données MySQL/PostgreSQL.",
+      "date": "Oct. 2023 - Présent",
+      "title": "Développeur Fullstack PHP",
+      "subtitle": "CruiseTech SARL - Monaco",
+      "description": "Développement d'applications web pour l'industrie maritime (PHP, React, MySQL). Intégration de systèmes de réservation et de gestion de croisières. Optimisation des performances et maintien de la sécurité des données. Collaboration avec équipe internationale sur des projets critiques.",
       "icon": "work",
-      "tags": ["PHP", "Symfony", "MySQL", "PostgreSQL", "SOAP", "Performance"]
+      "tags": ["PHP", "React", "MySQL", "Maritime", "Sécurité"]
     },
     {
-      "date": "2024",
-      "title": "Développeur Full Stack Freelance",
-      "subtitle": "Projets personnels & Communauté",
-      "description": "Développement d'applications web modernes avec Vue.js, React et Node.js. Création de bots Discord et d'outils pour diverses communautés. Focus sur l'architecture clean et les bonnes pratiques.",
-      "icon": "project",
-      "tags": ["Vue.js", "React", "Node.js", "Discord.js", "MongoDB"]
+      "date": "Nov. 2022 - Sep. 2023",
+      "title": "Alternant Développeur Web",
+      "subtitle": "CodeRhapsodie - Lyon/Remote",
+      "description": "Développement d'applications web complexes en PHP/Symfony. Création d'interfaces utilisateur modernes avec React/Vue.js. Participation à des projets pour des clients grands comptes. Apprentissage des méthodologies agiles et du travail en équipe.",
+      "icon": "work",
+      "tags": ["PHP", "Symfony", "React", "Vue.js", "Agile"]
     },
     {
-      "date": "2023 - 2024",
-      "title": "Formation Intensive Développement Web",
-      "subtitle": "Autodidacte & Pratique",
-      "description": "Apprentissage approfondi des technologies web modernes : PHP/Symfony, JavaScript (React, Vue.js, Node.js), bases de données relationnelles, API REST/SOAP, et optimisation de performance. Mise en pratique à travers de nombreux projets concrets.",
+      "date": "Oct. 2021 - Mar. 2022",
+      "title": "Alternant Développeur Web",
+      "subtitle": "Silamir - Rennes",
+      "description": "Migration Bitrix réussie. Amélioration des performances : +10%. Modernisation technologique.",
+      "icon": "work",
+      "tags": ["Migration", "Performance", "Bitrix"]
+    },
+    {
+      "date": "2021 - 2023",
+      "title": "Master ESI (Expert en Systèmes d'Information)",
+      "subtitle": "Sup de Vinci - Rennes",
+      "description": "Master en Ingénierie des Systèmes d'Information réalisé en alternance. Spécialisation en développement web, architecture système, et méthodologies de gestion de projet agile.",
       "icon": "education",
-      "tags": ["PHP", "Symfony", "JavaScript", "React", "Vue.js", "Node.js", "SQL"]
+      "tags": ["Master", "Systèmes d'Information", "Architecture", "Agile"]
     },
     {
-      "date": "2023",
-      "title": "Premier Projet d'Envergure",
-      "subtitle": "TeloBoup Discord Bot",
-      "description": "Développement d'un bot Discord complexe avec système de leveling, économie virtuelle, et gestion de quêtes pour la communauté de Teloru. Architecture modulaire et évolutive.",
-      "icon": "project",
-      "tags": ["JavaScript", "Discord.js", "Node.js", "Architecture"]
+      "date": "2020 - 2021",
+      "title": "Licence MIW (Métiers de l'Internet et du Web)",
+      "subtitle": "IUT d'Aix-Marseille - Gap",
+      "description": "Licence en technologies Web et Internet Mobile. Accent sur le développement web moderne, les applications mobiles, et la gestion de projets numériques.",
+      "icon": "education",
+      "tags": ["Licence", "Web", "Mobile", "Projets"]
+    },
+    {
+      "date": "2018 - 2020",
+      "title": "DUT Informatique",
+      "subtitle": "IUT d'Aix-Marseille - Aix",
+      "description": "Diplôme technique de deux ans en Informatique. Fondements en programmation, algorithmes, bases de données, et méthodologies de développement logiciel.",
+      "icon": "education",
+      "tags": ["DUT", "Programmation", "Algorithmes", "BDD"]
+    },
+    {
+      "date": "Premier Contrat",
+      "title": "Stagiaire Développeur Web",
+      "subtitle": "Depiltech - Nice",
+      "description": "Protocoles d'amélioration de sites web. Développement de fonctionnalités backoffice. Initialisation du framework Symfony.",
+      "icon": "work",
+      "tags": ["Stage", "Symfony", "Backoffice"]
     }
   ],
   "certifications": [
@@ -228,6 +294,7 @@
     "about": "À propos",
     "projects": "Projets",
     "skills": "Compétences",
+    "languages": "Langues",
     "contact": "Contact",
     "code": "Code",
     "demo": "Démo",

@@ -139,6 +139,8 @@
 </template>
 
 <script>
+import emailjs from '@emailjs/browser'
+
 export default {
   name: 'ContactForm',
   props: {
@@ -212,15 +214,30 @@ export default {
       this.submitStatus = null
 
       try {
-        // Simulation d'envoi (à remplacer par EmailJS ou votre backend)
-        await new Promise(resolve => setTimeout(resolve, 1500))
+        // Configuration EmailJS
+        const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
+        const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+        const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
-        // Pour implémenter EmailJS, installez: npm install @emailjs/browser
-        // Puis utilisez:
-        // import emailjs from '@emailjs/browser'
-        // await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this.formData, 'YOUR_PUBLIC_KEY')
+        // Vérifier que les clés EmailJS sont configurées
+        if (!serviceId || !templateId || !publicKey) {
+          console.warn('EmailJS not configured. Please add VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, and VITE_EMAILJS_PUBLIC_KEY to .env file')
+          // Mode simulation si EmailJS n'est pas configuré
+          await new Promise(resolve => setTimeout(resolve, 1500))
+          console.log('Form submitted (simulation mode):', this.formData)
+        } else {
+          // Envoi avec EmailJS
+          const templateParams = {
+            from_name: this.formData.name,
+            from_email: this.formData.email,
+            subject: this.formData.subject,
+            message: this.formData.message,
+            to_email: this.personal.email
+          }
 
-        console.log('Form submitted:', this.formData)
+          await emailjs.send(serviceId, templateId, templateParams, publicKey)
+          console.log('Email sent successfully via EmailJS')
+        }
 
         this.submitStatus = 'success'
         this.resetForm()

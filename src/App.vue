@@ -5,6 +5,7 @@ import About from './components/About.vue'
 import Timeline from './components/Timeline.vue'
 import ProjectsEnhanced from './components/ProjectsEnhanced.vue'
 import Skills from './components/Skills.vue'
+import Languages from './components/Languages.vue'
 import Certifications from './components/Certifications.vue'
 import GitHubActivity from './components/GitHubActivity.vue'
 import Availability from './components/Availability.vue'
@@ -22,6 +23,7 @@ export default {
     Timeline,
     ProjectsEnhanced,
     Skills,
+    Languages,
     Certifications,
     GitHubActivity,
     Availability,
@@ -96,6 +98,10 @@ export default {
     <Hero :personal="portfolioData.personal" />
     <About
       :aboutData="portfolioData.about"
+      :labels="portfolioData.labels"
+    />
+    <Languages
+      :languages="portfolioData.about.languages"
       :labels="portfolioData.labels"
     />
     <Timeline
