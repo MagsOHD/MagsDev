@@ -43,18 +43,49 @@ export default {
   top: 2rem;
   right: 2rem;
   z-index: 100;
+  /* Empêcher les problèmes de positionnement */
+  pointer-events: none;
 }
 
 .header-controls {
   display: flex;
   align-items: center;
   gap: 1rem;
+  /* Réactiver les événements pour les contrôles */
+  pointer-events: auto;
 }
 
+/* Tablette */
 @media (max-width: 768px) {
   .header {
     top: 1rem;
     right: 1rem;
+  }
+
+  .header-controls {
+    gap: 0.75rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .header {
+    top: 0.75rem;
+    right: 0.75rem;
+    left: auto;
+  }
+
+  .header-controls {
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+  }
+}
+
+/* Paysage sur mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+  .header {
+    top: 0.5rem;
+    right: 0.5rem;
   }
 
   .header-controls {

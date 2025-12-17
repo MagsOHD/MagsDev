@@ -176,7 +176,17 @@
       "subtitle": "CruiseTech SARL - Monaco",
       "description": "Développement d'applications web pour l'industrie maritime (PHP, React, MySQL). Intégration de systèmes de réservation et de gestion de croisières. Optimisation des performances et maintien de la sécurité des données. Collaboration avec équipe internationale sur des projets critiques.",
       "icon": "work",
+      "image": "/images/timeline/cruisetech.svg",
       "tags": ["PHP", "React", "MySQL", "Maritime", "Sécurité"]
+    },
+    {
+      "date": "2021 - 2023",
+      "title": "Master ESI (Expert en Systèmes d'Information)",
+      "subtitle": "Sup de Vinci - Rennes",
+      "description": "Master en Ingénierie des Systèmes d'Information réalisé en alternance. Spécialisation en développement web, architecture système, et méthodologies de gestion de projet agile.",
+      "icon": "education",
+      "image": "/images/timeline/supdevinci.svg",
+      "tags": ["Master", "Systèmes d'Information", "Architecture", "Agile"]
     },
     {
       "date": "Nov. 2022 - Sep. 2023",
@@ -184,6 +194,7 @@
       "subtitle": "CodeRhapsodie - Lyon/Remote",
       "description": "Développement d'applications web complexes en PHP/Symfony. Création d'interfaces utilisateur modernes avec React/Vue.js. Participation à des projets pour des clients grands comptes. Apprentissage des méthodologies agiles et du travail en équipe.",
       "icon": "work",
+      "image": "/images/timeline/coderhapsodie.svg",
       "tags": ["PHP", "Symfony", "React", "Vue.js", "Agile"]
     },
     {
@@ -192,15 +203,17 @@
       "subtitle": "Silamir - Rennes",
       "description": "Migration Bitrix réussie. Amélioration des performances : +10%. Modernisation technologique.",
       "icon": "work",
+      "image": "/images/timeline/silamir.png",
       "tags": ["Migration", "Performance", "Bitrix"]
     },
     {
-      "date": "2021 - 2023",
-      "title": "Master ESI (Expert en Systèmes d'Information)",
-      "subtitle": "Sup de Vinci - Rennes",
-      "description": "Master en Ingénierie des Systèmes d'Information réalisé en alternance. Spécialisation en développement web, architecture système, et méthodologies de gestion de projet agile.",
-      "icon": "education",
-      "tags": ["Master", "Systèmes d'Information", "Architecture", "Agile"]
+      "date": "2021",
+      "title": "Stagiaire Développeur Web",
+      "subtitle": "Depiltech - Nice",
+      "description": "Stage de fin de Licence MIW. Protocoles d'amélioration de sites web. Développement de fonctionnalités backoffice. Initialisation du framework Symfony.",
+      "icon": "internship",
+      "image": "/images/timeline/depiltech.svg",
+      "tags": ["Stage", "Symfony", "Backoffice", "Licence MIW"]
     },
     {
       "date": "2020 - 2021",
@@ -208,6 +221,7 @@
       "subtitle": "IUT d'Aix-Marseille - Gap",
       "description": "Licence en technologies Web et Internet Mobile. Accent sur le développement web moderne, les applications mobiles, et la gestion de projets numériques.",
       "icon": "education",
+      "image": "/images/timeline/iut-amu.svg",
       "tags": ["Licence", "Web", "Mobile", "Projets"]
     },
     {
@@ -216,48 +230,11 @@
       "subtitle": "IUT d'Aix-Marseille - Aix",
       "description": "Diplôme technique de deux ans en Informatique. Fondements en programmation, algorithmes, bases de données, et méthodologies de développement logiciel.",
       "icon": "education",
+      "image": "/images/timeline/iut-amu.svg",
       "tags": ["DUT", "Programmation", "Algorithmes", "BDD"]
-    },
-    {
-      "date": "Premier Contrat",
-      "title": "Stagiaire Développeur Web",
-      "subtitle": "Depiltech - Nice",
-      "description": "Protocoles d'amélioration de sites web. Développement de fonctionnalités backoffice. Initialisation du framework Symfony.",
-      "icon": "work",
-      "tags": ["Stage", "Symfony", "Backoffice"]
     }
   ],
   "certifications": [
-    {
-      "id": 1,
-      "title": "JavaScript Algorithms and Data Structures",
-      "issuer": "freeCodeCamp",
-      "date": "2023",
-      "type": "certification",
-      "description": "Certification couvrant les algorithmes, structures de données et programmation orientée objet en JavaScript.",
-      "skills": ["JavaScript", "Algorithmes", "ES6"],
-      "link": "#"
-    },
-    {
-      "id": 2,
-      "title": "Vue.js - The Complete Guide",
-      "issuer": "Udemy",
-      "date": "2023",
-      "type": "course",
-      "description": "Formation complète sur Vue.js 3, Vuex, Vue Router et les meilleures pratiques.",
-      "skills": ["Vue.js", "Vuex", "Vue Router"],
-      "link": "#"
-    },
-    {
-      "id": 3,
-      "title": "Node.js Backend Development",
-      "issuer": "OpenClassrooms",
-      "date": "2024",
-      "type": "formation",
-      "description": "Formation sur le développement backend avec Node.js, Express et MongoDB.",
-      "skills": ["Node.js", "Express", "MongoDB", "API REST"],
-      "link": "#"
-    },
     {
       "id": 4,
       "title": "Java Programming",

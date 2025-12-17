@@ -17,12 +17,22 @@
           class="timeline-item"
           :class="{ 'left': index % 2 === 0, 'right': index % 2 !== 0 }"
           :data-index="index"
+          :data-icon-type="item.icon"
         >
           <div class="timeline-content">
             <div class="timeline-date">{{ item.date }}</div>
             <div class="timeline-card">
-              <div class="card-icon" v-if="item.icon">
-                <component :is="getIcon(item.icon)" />
+              <div class="timeline-card-header">
+                <div class="card-icon" v-if="item.icon">
+                  <component :is="getIcon(item.icon)" />
+                </div>
+                <img
+                  v-if="item.image"
+                  :src="item.image"
+                  :alt="item.title"
+                  class="timeline-image"
+                  loading="lazy"
+                />
               </div>
               <h3 class="timeline-title">{{ item.title }}</h3>
               <h4 class="timeline-subtitle" v-if="item.subtitle">{{ item.subtitle }}</h4>
@@ -50,45 +60,6 @@ export default {
     labels: {
       type: Object,
       required: true
-    }
-  },
-  methods: {
-    getIcon(iconName) {
-      const icons = {
-        education: {
-          template: `
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-            </svg>
-          `
-        },
-        work: {
-          template: `
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-            </svg>
-          `
-        },
-        achievement: {
-          template: `
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="8" r="7"></circle>
-              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-            </svg>
-          `
-        },
-        project: {
-          template: `
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="16 18 22 12 16 6"></polyline>
-              <polyline points="8 6 2 12 8 18"></polyline>
-            </svg>
-          `
-        }
-      }
-      return icons[iconName] || icons.achievement
     }
   },
   mounted() {
@@ -128,6 +99,15 @@ export default {
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
               <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          `
+        },
+        internship: {
+          template: `
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="8.5" cy="7" r="4"></circle>
+              <polyline points="17 11 19 13 23 9"></polyline>
             </svg>
           `
         },
@@ -312,6 +292,13 @@ export default {
   transform: translateY(-5px);
 }
 
+.timeline-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
 .card-icon {
   display: inline-flex;
   align-items: center;
@@ -320,8 +307,50 @@ export default {
   height: 40px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.6);
+  flex-shrink: 0;
+  position: relative;
+}
+
+/* Couleurs selon le type d'expérience */
+.timeline-item[data-icon-type="education"] .card-icon {
+  background: rgba(99, 102, 241, 0.15);
+  color: #818cf8;
+}
+
+.timeline-item[data-icon-type="work"] .card-icon {
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+}
+
+.timeline-item[data-icon-type="internship"] .card-icon {
+  background: rgba(251, 146, 60, 0.15);
+  color: #fb923c;
+}
+
+.timeline-image {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+/* Logos avec texte blanc nécessitant un fond sombre */
+.timeline-image[src*="supdevinci"],
+.timeline-image[src*="iut-amu"],
+.timeline-image[src*="depiltech"] {
+  background: #1a1a1a;
+}
+
+.timeline-image:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .timeline-title {

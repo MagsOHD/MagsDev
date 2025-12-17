@@ -8,7 +8,6 @@ import Skills from './components/Skills.vue'
 import Languages from './components/Languages.vue'
 import Certifications from './components/Certifications.vue'
 import GitHubActivity from './components/GitHubActivity.vue'
-import Availability from './components/Availability.vue'
 import ContactForm from './components/ContactForm.vue'
 import Footer from './components/Footer.vue'
 import portfolioDataFr from './data/portfolio.json'
@@ -26,7 +25,6 @@ export default {
     Languages,
     Certifications,
     GitHubActivity,
-    Availability,
     ContactForm,
     Footer
   },
@@ -135,10 +133,6 @@ export default {
     <GitHubActivity
       :githubUsername="portfolioData.github.username"
       :gitlabUsername="portfolioData.personal.gitlab.split('/').pop()"
-      :labels="portfolioData.labels"
-    />
-    <Availability
-      :availabilityData="portfolioData.availability"
       :labels="portfolioData.labels"
     />
     <ContactForm
@@ -301,17 +295,32 @@ section:not(.hero).visible .section-title {
   transform: translateY(0);
 }
 
-/* Animation en cascade pour les enfants */
-section:not(.hero).visible > *:nth-child(2) {
-  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.1s backwards;
+/* Animation en cascade pour les enfants - Desktop uniquement */
+@media (min-width: 769px) {
+  section:not(.hero).visible > *:nth-child(2) {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.1s backwards;
+  }
+
+  section:not(.hero).visible > *:nth-child(3) {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards;
+  }
+
+  section:not(.hero).visible > *:nth-child(4) {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.3s backwards;
+  }
 }
 
-section:not(.hero).visible > *:nth-child(3) {
-  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards;
-}
+/* Animation simplifiée pour mobile */
+@media (max-width: 768px) {
+  section:not(.hero) .section-title {
+    transform: translateY(15px);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+  }
 
-section:not(.hero).visible > *:nth-child(4) {
-  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.3s backwards;
+  /* Désactiver les animations en cascade sur mobile */
+  section:not(.hero).visible > * {
+    animation: none !important;
+  }
 }
 
 @keyframes fadeInUp {

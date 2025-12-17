@@ -99,6 +99,11 @@ export default {
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(255, 255, 255, 0.7);
+  /* Désactiver le tap highlight sur mobile */
+  -webkit-tap-highlight-color: transparent;
+  /* Empêcher la sélection du texte */
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .theme-toggle:hover {
@@ -110,6 +115,37 @@ export default {
 
 .theme-toggle:active {
   transform: scale(0.95);
+}
+
+/* Amélioration du feedback visuel sur mobile */
+@media (hover: none) and (pointer: coarse) {
+  .theme-toggle {
+    width: 48px;
+    height: 48px;
+  }
+
+  .theme-toggle:active {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(0.92);
+  }
+
+  .theme-toggle svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Optimisations pour petits écrans */
+@media (max-width: 480px) {
+  .theme-toggle {
+    width: 52px;
+    height: 52px;
+  }
+
+  .theme-toggle svg {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 .icon-fade-enter-active,

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Placeholder logo for CruiseTech -->
+  <rect width="200" height="200" fill="#1a4d6d"/>
+  <g fill="#ffffff">
+    <!-- Ship icon -->
+    <path d="M100 60 L140 100 L130 100 L130 120 L70 120 L70 100 L60 100 Z"/>
+    <path d="M65 125 L135 125 L145 140 L55 140 Z"/>
+    <!-- Waves -->
+    <path d="M20 150 Q35 145 50 150 T80 150 T110 150 T140 150 T170 150 T200 150"
+          stroke="#ffffff" stroke-width="2" fill="none"/>
+    <path d="M20 160 Q35 155 50 160 T80 160 T110 160 T140 160 T170 160 T200 160"
+          stroke="#ffffff" stroke-width="2" fill="none"/>
+  </g>
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="18"
+        font-weight="bold" fill="#ffffff" text-anchor="middle">
+    CRUISETECH
+  </text>
+</svg>
